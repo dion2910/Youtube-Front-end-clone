@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Positions practice</title>
+    </head>
+    <body style = "
+        padding-top: 60px;
+        padding-left: 80px;
+        height:3000px">
+        <div style = "
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+        z-index: 1;
+        ">
+        header
+        </div>
+        <div style ="
+            background-color: green;
+            color: white;
+            position:fixed;
+            top: 50px;
+            left: 0px;
+            width: 72px;
+            bottom: 0px;">
+            sidebar
+            <div style = 
+                "position: absolute;
+                background-color: red;
+                color: white;
+                right: 0;
+                top: 0;
+                z-index: 100;">
+                    X
+            </div>
+        </div>
+
+        <div style = 
+        "position: absolute;
+        background-color: red;
+        color: white;
+        left: 10px;
+        top: 10px;
+        z-index: 100;">
+            absolute
+        </div>
+        <div style = "
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+        ">
+           div1
+        </div>
+        <div style = "
+        background-color: pink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        ">div2
+
+        <div style = 
+        "position: absolute;
+        background-color: black;
+        color: white;
+        right: 10px;
+        bottom: 10px;
+        z-index: 100;">
+            absolute
+        </div>
+    
+    </div>
+
+        
+    </body>
+
+</html>
+
+<!-- 
+    CSS Positions
+
+-default is 'static'
+-'fixed' is so that the element is fixed on the browser window, so it stays while you scroll
+the position of it is the padding from the browser window
+
+top is where the element stays from the top of the page, same for L R and B
+if you set opposite directions, the element will stretch to get both
+
+height and width will ensure that the element does not resize
+
+-'absolute' places the element fixed on the page, stays on that part of the page 
+used to place an element on a precise part of the page
+usually we dont use this but a useful feature is placing the absolute positioning inside another
+element, this way the top/right/left is relative to the element border
+
+-'relative', to be used with absolute, so when i use absolute, absolute's distance will be based off
+the relative element, but if i put under fixed, it will be fixed on the browser window
+
+-'z-index determines how you want to stack the elements'
+-->

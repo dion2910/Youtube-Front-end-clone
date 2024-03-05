@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Grid Practice</title>
+    </head>
+    <body>
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 100px;
+            ">
+            <div style = "background-color: lightblue;">
+                div1
+            </div>
+            <div style = "background-color: pink;">
+                div2
+            </div>
+        </div>
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            margin-top: 20px;
+            ">
+            <div style = "background-color: lightblue;">
+                div1
+            </div>
+            <div style = "background-color: pink;">
+                div2
+            </div>
+            <div style = "background-color: lightblue;">
+                div1
+            </div> 
+            <div style = "background-color: pink;">
+                div2
+            </div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            margin-top: 20px;
+            ">
+            <div style = "background-color: lightblue;">
+                div1
+            </div>
+            <div style = "background-color: pink;">
+                div2
+            </div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 1fr 2fr;
+            margin-top: 20px;
+            ">
+            <div style = "background-color: lightblue;">
+                div1
+            </div>
+            <div style = "background-color: pink;">
+                div2
+            </div>
+            <div style = "background-color: lightblue;">
+                div1
+            </div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 20px;
+            column-gap: 20px;
+            row-gap: 20px;
+            ">
+            <div style = "background-color: lightblue; height: 200px">
+                div1
+            </div>
+            <div style = "background-color: pink; height: 200px">
+                div2
+            </div>
+            <div style = "background-color: lightblue; height: 200px">
+                div1
+            </div>
+            <div style = "background-color: pink; height: 200px">
+                div2
+            </div>
+            <div style = "background-color: lightblue; height: 200px">
+                div1
+            </div>
+            <div style = "background-color: pink; height: 200px">
+                div2
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- 
+    This is the 3rd way to put style in the code, not recommended
+    hard to read and only applies to one, but easiest to debug
+
+    First way is to put at the top in a style section
+    Second way is to link the CSS file 
+
+
+    CSS grids
+    makes a table on the page, divs being block elements will take up
+    the whole cell of the grid, so i dont have to keep manipulating the sizes
+
+    and when i add more elements within the div, the grid will auto adjust
+    fr - ratio of the whole line
+
+-->

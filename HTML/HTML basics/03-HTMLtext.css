@@ -1,0 +1,66 @@
+p{
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* for repeated styles across all*/
+.video-title{
+    font-size: 30px;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 5px;
+    line-height: 40px;
+}
+
+.views{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.name{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.caption{
+    font-size: 15px;
+    color: rgb(96,96,96);
+    width: 500px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-size: 20px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.span{
+    color: black;
+    cursor:pointer;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.span:hover{
+    color: white;
+    text-decoration: underline;
+}
+/*
+CSS has font style properties just like word/ppt
+
+width : to make the text wrap around to a new line
+line-height : line spacing
+
+if you dont understand why your page looks certain way, always just inspect element to see the block model
+<p> always come with default spacings
+
+CSS styles always take priority in the specific class, overwriting the general one
+*/

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Flexbox practice</title>
+    </head>
+    <body>
+        <div style = "
+        display: flex;
+        flex-direction: row;
+        
+        ">
+            <div style = "background-color: lightblue;">
+                div1 text
+            </div>
+            <div style = "background-color: pink;">
+                div2
+            </div>
+        </div>
+
+        <div style = "
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        ">
+            <div style = "background-color: lightblue;width: 100px;">
+                div1 text
+            </div>
+            <div style = "background-color: pink; flex: 1;">
+                div2
+            </div>
+        </div>
+        
+        <div style = "
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        ">
+            <div style = "background-color: lightblue;width: 100px;">
+                div1 text
+            </div>
+            <div style = "background-color: pink; flex: 1;">
+                div2
+            </div>
+            <div style = "background-color: lightblue; flex: 2;">
+                div3 text
+            </div>
+        </div>
+
+        <div style = "
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        height: 70px;
+
+        justify-content: center;
+        ">
+            <div style = "background-color: lightblue;width: 100px;">
+                div1 text
+            </div>
+            <div style = "background-color: pink; width: 100px;">
+                div2
+            </div>
+            <div style = "background-color: lightblue; width: 100px;">
+                div3 text
+            </div>
+        </div>
+
+        <div style = "
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        height: 70px;
+
+        justify-content: space-between;
+        ">
+            <div style = "background-color: lightblue;width: 100px;">
+                div1 text
+            </div>
+            <div style = "background-color: pink; width: 100px;">
+                div2
+            </div>
+            <div style = "background-color: lightblue; width: 100px;">
+                div3 text
+            </div>
+        </div>
+
+        <div style = "
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        height: 70px;
+
+        justify-content: space-between;
+        align-items: center;
+        ">
+            <div style = "background-color: lightblue;width: 100px;">
+                div1 text
+            </div>
+            <div style = "background-color: pink; width: 100px;">
+                div2
+            </div>
+            <div style = "background-color: lightblue; width: 100px;">
+                div3 text
+            </div>
+        </div>
+    </body>
+
+</html>
+
+<!--CSS flexbox
+    flexbox make the divs behave like inline block elements, 
+    takes as much horizontal elements as needed
+
+    makes the div a flexible box
+    also has auto alignment like grid
+
+    flex = fr of grid
+
+    grid is more rigid compared to flexbox, grid i declare the dimensions at the creation of it
+    so when i reorder elements, all the dimensions follow the same like an excel
+
+    flexbox allows flexible layouts, i can shift elements around and they keep their dimensions
+
+
+-->

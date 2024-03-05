@@ -1,0 +1,107 @@
+.sub{
+    background-color: rgb(200,0,0); 
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    margin-right:8px;
+
+    transition: opacity 1s;
+
+    vertical-align: top;
+}
+
+/*
+this is also known as "psuedo class
+
+hover - style will only take effect when you 'hover' over the button
+active - style will take effect when you click
+
+*/
+.sub:hover{
+    opacity: 0.8
+}
+
+.sub:active{
+    opacity: 0.5
+}
+
+.join{
+    background-color: white;
+    border-color: rgb(41,118,211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41,118,211); 
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    margin-right: 8px;
+
+    transition: background-color 0.5s, color 1s; /* you can put this under hover, but there's a difference*/
+}
+
+.join:hover{
+    background-color: rgb(41,118,211);
+    color: white;
+}
+
+.join:active{
+    opacity: 0.7;
+}
+.tweet{
+    background-color: rgb(2,158,255);
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    border-radius: 18px;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    cursor:pointer;   
+    transition: box-shadow 0.2s;
+
+    vertical-align: top;
+}
+
+.tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+}
+
+/*
+CSS is the style to mod appearance of the element
+gold 'button' is the CSS selector, to choose the target element   
+'background-color' is the CSS property and 'red' is the CSS value
+'px' means pixels, theres no fix value, designers just trial and error until they're happy, or they have some standards to follow
+'border-radius' is the round button
+'cursor' when you hover over the button
+
+CSS BOX MODEL
+how much space an element takes on a page and how far it is from other elements
+**it is not a good idea to use 'height' and 'width' to style button because it forces the button to be a certain size, then when text
+changes, the button does not reshape around it
+
+'.' is to target the style for that class
+'margin' is to spacing outside of the element
+'border' is the border of the element
+'padding' is the spacing inside the element,around the text 
+
+
+'transition' is to make it change smoothly
+all these properties are not to memorised, just google what you intend in CSS
+
+by default, CSS aligns all buttons by their text, not the button,
+use 'vertical-align'
+*/ 
